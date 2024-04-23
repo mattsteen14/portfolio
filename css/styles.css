@@ -13,6 +13,10 @@ body {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+}
+
 details {
     cursor: pointer;
 }
@@ -50,7 +54,7 @@ nav {
 /* MAIN */
 
 main {
-    /* text-align: center; */
+    text-align: center;
 }
 
 /* ABOUT ME section */
@@ -68,6 +72,7 @@ main {
 .about-text-container {
     margin-left: 20px;
     margin-right: auto;
+    text-align: start;
 }
 
 /* PROJECTS section */
@@ -120,12 +125,22 @@ button {
     flex-wrap: wrap;
 }
 
-/* CONTACT section */
-
-footer {
-    text-align: center;
+.icon {
+    font-size: 2em;
 }
+
+/* CONTACT section */
 
 .contact-container {
 
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
 }
