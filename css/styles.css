@@ -1,7 +1,16 @@
 /* UNIVERSAL STYLES */
 
-body {
+html, body {
+    height: 100%;
+}
 
+body {
+    margin: 0;
+    padding: 0 12px;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 details {
@@ -10,6 +19,7 @@ details {
 
 summary {
     list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+    /* display: inline; */
 }
 
 /* HEADER / NAV BAR */
@@ -19,35 +29,45 @@ header {
 }
 
 nav {
-
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
 }
 
 .nav-links {
-
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
 }
 
 .nav-link {
-
+    margin: 8px;
 }
 
 /* MAIN */
 
 main {
-
+    /* text-align: center; */
 }
 
 /* ABOUT ME section */
 
 .about-container {
-
+    display: flex;
+    
 }
 
 .about-pic {
-
+    width: 200px;
+    /* margin-left: auto; */
 }
 
 .about-text-container {
-
+    margin-left: 20px;
+    margin-right: auto;
 }
 
 /* PROJECTS section */
@@ -60,8 +80,8 @@ main {
 
 }
 
-.project-heading {
-
+.project-heading h3 {
+    display: inline;
 }
 
 .project-description {
@@ -75,15 +95,16 @@ button {
 /* CAREER section */
 
 .career-container {
-
+    display: inline-flex;
 }
 
 .career-item {
-
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.career-heading {
-
+.career-heading h3 {
+    display: inline;
 }
 
 .career-description {
@@ -93,15 +114,18 @@ button {
 /* SKILLS section */
 
 .skills-container {
-
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* CONTACT section */
 
 footer {
-
+    text-align: center;
 }
 
 .contact-container {
-    
+
 }
