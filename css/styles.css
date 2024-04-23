@@ -1,0 +1,107 @@
+/* UNIVERSAL STYLES */
+
+body {
+
+}
+
+details {
+    cursor: pointer;
+}
+
+summary {
+    list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+}
+
+/* HEADER / NAV BAR */
+
+header {
+
+}
+
+nav {
+
+}
+
+.nav-links {
+
+}
+
+.nav-link {
+
+}
+
+/* MAIN */
+
+main {
+
+}
+
+/* ABOUT ME section */
+
+.about-container {
+
+}
+
+.about-pic {
+
+}
+
+.about-text-container {
+
+}
+
+/* PROJECTS section */
+
+.project-container {
+
+}
+
+.project-item {
+
+}
+
+.project-heading {
+
+}
+
+.project-description {
+
+}
+
+button {
+
+}
+
+/* CAREER section */
+
+.career-container {
+
+}
+
+.career-item {
+
+}
+
+.career-heading {
+
+}
+
+.career-description {
+
+}
+
+/* SKILLS section */
+
+.skills-container {
+
+}
+
+/* CONTACT section */
+
+footer {
+
+}
+
+.contact-container {
+    
+}
