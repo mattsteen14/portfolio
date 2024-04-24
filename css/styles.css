@@ -122,6 +122,7 @@ button {
 .career-container {
     display: grid;
     grid-template-columns: 30% 30% 30%;
+    margin: 20px;
 }
 
 .career-item {
@@ -136,9 +137,9 @@ button {
     text-align: start;
 }
 
-/* .career-desceription {
-    display: inline;
-} */
+.career-description {
+
+}
 
 .career-description .icon {
     font-size: 6em;
@@ -153,6 +154,10 @@ button {
 
 /* SKILLS section */
 
+#skills {
+    margin: 20px;
+}
+
 .skills-container {
     display: flex;
     width: 100%;
@@ -166,8 +171,8 @@ button {
 
 /* CONTACT section */
 
-.contact-container {
-
+#contact {
+    margin: 20px;
 } 
 
 .contact-container .icon {
@@ -181,7 +186,6 @@ footer {
     display: flex;
     padding: 10px;
     align-items: center;
-    margin: 10px;
     margin-left: auto;
 }
 
