@@ -19,17 +19,17 @@ a {
 
 details {
     cursor: pointer;
+    margin: 10px;
 }
 
 summary {
     list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
-    /* display: inline; */
 }
 
 /* HEADER / NAV BAR */
 
-header {
-
+header h2 {
+    margin: 0;
 }
 
 nav {
@@ -61,12 +61,12 @@ main {
 
 .about-container {
     display: flex;
-    
+    margin: 20px;
 }
 
 .about-pic {
     width: 200px;
-    /* margin-left: auto; */
+    border-radius: 12px;
 }
 
 .about-text-container {
@@ -78,7 +78,7 @@ main {
 /* PROJECTS section */
 
 .project-container {
-
+    border: 1px black solid;
 }
 
 .project-item {
@@ -100,12 +100,12 @@ button {
 /* CAREER section */
 
 .career-container {
-    display: inline-flex;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
 }
 
 .career-item {
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 .career-heading h3 {
@@ -113,7 +113,22 @@ button {
 }
 
 .career-description {
+    text-align: start;
+}
 
+/* .career-desceription {
+    display: inline;
+} */
+
+.career-description .icon {
+    font-size: 6em;
+    margin: 5%;
+}
+
+.credits {
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
 }
 
 /* SKILLS section */
@@ -125,7 +140,7 @@ button {
     flex-wrap: wrap;
 }
 
-.icon {
+.skills-container .icon {
     font-size: 2em;
 }
 
@@ -133,14 +148,52 @@ button {
 
 .contact-container {
 
+} 
+
+.contact-container .icon {
+    font-size: 2em;
+    margin: 20px;
 }
 
 /* FOOTER */
 
 footer {
     display: flex;
-    padding: 0;
+    padding: 10px;
     align-items: center;
-    margin: 0;
+    margin: 10px;
     margin-left: auto;
+}
+
+@media only screen and (max-width: 600px) {
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-links {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-container {
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .about-pic {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-text-container {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .career-container {
+        display: block;
+    }
 }
