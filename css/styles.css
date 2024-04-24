@@ -5,6 +5,8 @@ html, body {
 }
 
 body {
+    background-color: #FBF6BF;
+    color: #213115;
     margin: 0;
     padding: 0 12px;
     display: flex;
@@ -15,11 +17,29 @@ body {
 
 a {
     text-decoration: none;
+    cursor: pointer;
+    color: #213115;
+}
+
+a:hover {
+    color: #B2B96B;
+}
+
+a:active {
+    color: #5D7B31;
 }
 
 details {
     cursor: pointer;
     margin: 10px;
+}
+
+details:hover {
+    color: #B2B96B;
+}
+
+details:active {
+    color: #5D7B31;
 }
 
 summary {
@@ -58,6 +78,10 @@ main {
 }
 
 /* ABOUT ME section */
+
+#about {
+    /* background-color: #5D7B31; */
+}
 
 .about-container {
     display: flex;
