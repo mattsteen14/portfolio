@@ -1,7 +1,12 @@
 /* UNIVERSAL STYLES */
 
+html {
+    /* background-color: #FBF6BF; */
+}
+
 html, body {
     height: 100%;
+    
 }
 
 body {
