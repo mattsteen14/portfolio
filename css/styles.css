@@ -5,14 +5,12 @@ html, body {
 }
 
 body {
-    background-color: #FBF6BF;
     color: #213115;
     margin: 0;
-    padding: 0 12px;
     display: flex;
     flex-direction: column;
-    max-width: 900px;
-    margin: 0 auto;
+    width: 100vw;
+    min-height: 100vh;
 }
 
 a {
@@ -42,34 +40,43 @@ summary {
     list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
 }
 
+#about, #projects, #career, #skills, #contact {
+    padding: 0.5rem;
+}
+
 /* HEADER / NAV BAR */
 
-header h2 {
+header h1 {
     margin: 0;
 }
 
 nav {
+    background-color: #FBF6BF;
     display: flex;
+    justify-content: space-between;
+    padding: 1rem 3.5rem;
     align-items: center;
-    padding: 16px 0;
+    /* padding: 16px 0;  */
 }
 
 .nav-links {
     display: flex;
     list-style-type: none;
+    gap: 1rem;
     padding: 0;
     align-items: center;
-    margin: 0;
-    margin-left: auto;
+    /* margin: 0;
+    margin-left: auto;  */
 }
 
 .nav-link {
-    margin: 8px;
+    /* margin: 8px; */
 }
 
 /* MAIN */
 
 main {
+    background-color: #B2B96B;
     text-align: center;
 }
 
@@ -81,24 +88,36 @@ main {
 
 .about-container {
     display: flex;
-    margin: 20px;
+    padding: 2rem;
+    gap: 100px;
+    
+    /* margin: 20px; */
 }
 
 .about-pic {
-    width: 200px;
-    border-radius: 12px;
+    padding: 0 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 25%;
 }
 
 .about-text-container {
-    margin-left: 20px;
-    margin-right: auto;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
     text-align: start;
 }
 
 /* PROJECTS section */
 
+#projects {
+    background-color: #FBF6BF;
+    /* padding: 0.5rem; */
+}
+
 .project-container {
     border: 1px black solid;
+    margin: 4%;
 }
 
 .project-item {
@@ -119,10 +138,14 @@ button {
 
 /* CAREER section */
 
+#career {
+    /* padding: 0.5rem; */
+}
+
 .career-container {
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    margin: 20px;
+    margin: 4%;
 }
 
 .career-item {
@@ -155,12 +178,13 @@ button {
 /* SKILLS section */
 
 #skills {
-    margin: 20px;
+    background-color: #FBF6BF;
+    /* padding: 0.5rem; */
 }
 
 .skills-container {
     display: flex;
-    width: 100%;
+    margin: 4%;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -172,8 +196,12 @@ button {
 /* CONTACT section */
 
 #contact {
-    margin: 20px;
+    /* padding: 0.5rem; */
 } 
+
+.contact-container {
+    /* margin: 4%; */
+}
 
 .contact-container .icon {
     font-size: 2em;
@@ -182,10 +210,12 @@ button {
 
 /* FOOTER */
 
+
 footer {
     display: flex;
-    padding: 10px;
+    padding: 1rem 0;
     align-items: center;
+    margin-right: 4%;
     margin-left: auto;
 }
 
@@ -204,6 +234,7 @@ footer {
     .about-container {
     flex-direction: column;
     align-items: center;
+    gap: 0.5rem;
     }
 
     .about-pic {
