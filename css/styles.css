@@ -1,7 +1,7 @@
 /* UNIVERSAL STYLES */
 
 html {
-    /* background-color: #FBF6BF; */
+    font-family: 'Poppins', 'Trebuchet MS', Tahoma, sans-serif, serif;
 }
 
 html, body {
@@ -205,6 +205,10 @@ button {
 .contact-container .icon {
     font-size: 2em;
     margin: 20px;
+}
+
+.contact-container a:hover {
+    color: #5D7B31;
 }
 
 /* FOOTER */
