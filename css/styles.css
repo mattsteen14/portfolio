@@ -136,6 +136,10 @@ button {
 
 }
 
+#greeting {
+    display: none;
+}
+
 /* CAREER section */
 
 #career {
