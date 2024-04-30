@@ -7,7 +7,12 @@
         <link rel="stylesheet" href="./css/styles.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+        <script src="https://kit.fontawesome.com/120f3416d6.js"
+            crossorigin="anonymous"></script>
+        <script src="./script.mjs" type="module"></script>
     </head>
 
     <body>
@@ -31,12 +36,11 @@
                 <article class="about-container">
                     <img src="./resources/images/Matt1.jpg"
                         alt="A photo of Matt Steen-Brookes"
-                        class="about-pic"
-                        />
+                        class="about-pic" />
                     <div class="about-text-container">
                         <h2>About Me</h2>
                         <p>
-                            Aspiring programmer learning with Codecademy. 
+                            Aspiring programmer learning with Codecademy.
                             <br>
                             London based but from the Isle of Wight.
                         </p>
@@ -46,7 +50,7 @@
 
             <!-- IMMATURE GREETING -->
             <section id="projects">
-                
+
                 <article class="project-container">
                     <h2>Immature Greeting Generator</h2>
                     <details class="project-item">
@@ -84,18 +88,17 @@
                             Each greeting string variable is called through
                             the immatureGreeting function.
                         </p>
-                        <a 
-                        href="https://github.com/mattsteen14/immatureGreeting"
-                        target="_blank"
-                        title="Immature Greeting GitHub"
-                        >
-                        Link to Immature Greeting Generator GitHub
+                        <a
+                            href="https://github.com/mattsteen14/immatureGreeting"
+                            target="_blank"
+                            title="Immature Greeting GitHub">
+                            Link to Immature Greeting Generator GitHub
                         </a>
                     </details>
-                    <button>Male</button>
-                    <button>Female</button>
-                    <button>General</button>
-                    <p></p>
+                    <button id="child-button" onclick="">Child</button>
+                    <button id="boy-button" onclick="">Boy</button>
+                    <button id="girl-button" onclick="">Girl</button>
+                    <p id="greeting">Generate Greeting here...</p>
                 </article>
             </section>
 
@@ -113,18 +116,16 @@
                                 decade working on a range of media including
                                 commercials, music videos, TV & film.
                             </p>
-                            <a 
-                            href="https://www.imdb.com/name/nm8279830/"
-                            target="_blank"
-                            title="IMDB - Matt Steen-Brookes"
-                            >
+                            <a
+                                href="https://www.imdb.com/name/nm8279830/"
+                                target="_blank"
+                                title="IMDB - Matt Steen-Brookes">
                                 <i class="fab fa-imdb icon"></i>
                             </a>
-                            <a 
-                            href="https://www.thetalentmanager.com/talent/53403/matt-steen-brookes"
-                            target="_blank"
-                            title="Talent Manager with CV link - Matt Steen-Brookes"
-                            >
+                            <a
+                                href="https://www.thetalentmanager.com/talent/53403/matt-steen-brookes"
+                                target="_blank"
+                                title="Talent Manager with CV link - Matt Steen-Brookes">
                                 <i class="fa fa-file-text-o icon"></i>
                             </a>
                         </div>
@@ -142,8 +143,7 @@
                             <a
                                 href="https://www.screenskills.com/job-profiles/browse/film-and-tv-drama/technical/script-supervisor-film-and-tv-drama/"
                                 target="_blank"
-                                title="Screen Skills job profile - Script Supervisor"
-                                >
+                                title="Screen Skills job profile - Script Supervisor">
                                 ScreenSkills Role Description</a>
                         </div>
                     </details>
@@ -153,25 +153,25 @@
                         </summary>
                         <div class="career-description">
                             <div class="credits">
-                            <ul>
-                                <h4>Film</h4>
-                                <li><a>The Trouble With Jessica</a></li>
-                                <li><a>Tell No Lies</a></li>
-                                <li><a>The Stranger In Our Bed</a></li>
-                                <li><a>A Song From The Dark</a></li>
-                            </ul>
+                                <ul>
+                                    <h4>Film</h4>
+                                    <li><a>The Trouble With Jessica</a></li>
+                                    <li><a>Tell No Lies</a></li>
+                                    <li><a>The Stranger In Our Bed</a></li>
+                                    <li><a>A Song From The Dark</a></li>
+                                </ul>
                             </div>
                             <div class="credits">
-                            
-                            <ul>
-                                <h4>TV</h4>
-                                <li><a>Jerk season 3</a></li>
-                                <li><a>Flight 422</a></li>
-                                <li><a>Bloods season 2</a></li>
-                                <li><a>Hard Cell</a></li>
-                                <li><a>My Name Is Leon</a></li>
-                                <li><a>Doctors</a></li>
-                            </ul>
+
+                                <ul>
+                                    <h4>TV</h4>
+                                    <li><a>Jerk season 3</a></li>
+                                    <li><a>Flight 422</a></li>
+                                    <li><a>Bloods season 2</a></li>
+                                    <li><a>Hard Cell</a></li>
+                                    <li><a>My Name Is Leon</a></li>
+                                    <li><a>Doctors</a></li>
+                                </ul>
                             </div>
                         </div>
                     </details>
@@ -182,7 +182,7 @@
             <section id="skills">
                 <h2>Skills</h2>
                 <article class="skills-container">
-                    
+
                     <i class="fab fa-html5 icon"></i>
                     <i class="fab fa-css3-alt icon"></i>
                     <i class="fab fa-js icon"></i>
@@ -196,39 +196,35 @@
                 </article>
             </section>
 
-        <!-- CONTACT section -->
+            <!-- CONTACT section -->
             <section id="contact">
                 <h2>Contact</h2>
                 <article class="contact-container">
-                    <a 
-                    href="mailto:mattsteen14@me.com"
-                    title="Email Matt Steen-Brookes"
-                    >
-                    <i class="fas fa-envelope-square icon"></i>
-                    </a>
-                    <a 
-                    href="https://github.com/mattsteen14"
-                    target="_blank"
-                    title="GitHub - Matt Steen-Brookes"
-                    >
-                    <i class="fab fa-github icon"></i>
+                    <a
+                        href="mailto:mattsteen14@me.com"
+                        title="Email Matt Steen-Brookes">
+                        <i class="fas fa-envelope-square icon"></i>
                     </a>
                     <a
-                    href="https://twitter.com/mattsteen14"
-                    target="_blank"
-                    title="X - @mattsteen14"
-                    >
+                        href="https://github.com/mattsteen14"
+                        target="_blank"
+                        title="GitHub - Matt Steen-Brookes">
+                        <i class="fab fa-github icon"></i>
+                    </a>
+                    <a
+                        href="https://twitter.com/mattsteen14"
+                        target="_blank"
+                        title="X - @mattsteen14">
                         <i class="fa-brands fa-x-twitter"></i>
                     </a>
-                    <a 
-                    href="https://www.linkedin.com/in/mattsteen14"
-                    target="_blank"
-                    title="LinkedIn - Matt Steen-Brookes"
-                    >
-                    <i class="fab fa-linkedin icon"></i>
+                    <a
+                        href="https://www.linkedin.com/in/mattsteen14"
+                        target="_blank"
+                        title="LinkedIn - Matt Steen-Brookes">
+                        <i class="fab fa-linkedin icon"></i>
                     </a>
                 </article>
-            </section>    
+            </section>
 
         </main>
 
@@ -237,6 +233,5 @@
         </footer>
 
     </body>
-    <script src="https://kit.fontawesome.com/120f3416d6.js"
-        crossorigin="anonymous"></script>
+
 </html>
