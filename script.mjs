@@ -1,23 +1,38 @@
 import { generateRandomNumber, immatureChoices } from "../immatureGreeting/modules.mjs";
 import { immatureGreeting } from "../immatureGreeting/script.mjs";
 
-// immatureGreeting("male");
-// immatureGreeting("female");
-// immatureGreeting("neutral");
+immatureGreeting("male");
+immatureGreeting("female");
+immatureGreeting("neutral");
 
-let childButton = document.getElementById("child-button");
-let boyButton = document.getElementById("boy-button");
-let girlButton = document.getElementById("girl-button");
-let generateGreeting = document.getElementById("greeting");
+let childButton = document.getElementById("child-button").innerHTML;
+let boyButton = document.getElementById("boy-button").innerHTML;
+let girlButton = document.getElementById("girl-button").innerHTML;
+let greeting = document.getElementById("greeting").innerHTML;
+let button = document.querySelector('button').innerHTML;
 
-childButton.addEventListener("click", function() {
-    generateGreeting.innerText = immatureGreeting("neutral");
-});
+const displayText = () => {
+    greeting.style.display = "block";
+}
 
-boyButton.addEventListener("click", function() {
-    generateGreeting.innerText = immatureGreeting("male");
-});
+const generateGreeting = (button) => {
+    button.addEventListener("click", function() {
+        if (button == childButton) {
+            return greeting = immatureGreeting("neutral");
+        } else if (button == boyButton) {
+            return greeting = immatureGreeting("male");
+        } else if (button == girlButton) {
+            return greeting = immatureGreeting("female");
+        }
+    })
+}
 
-girlButton.addEventListener("click", function() {
-    generateGreeting.innerText = immatureGreeting("female");
-});
+document.getElementById("simpleInlineBtn").onclick = function() {alert('Hello Matt, this is alert!');};
+
+const doSomething = () => {
+    button.style.display = "block";
+}
+
+const simpleFuncClick = () => {
+    document.getElementById("simpleFuncClick").innerHTML = "Now I'm here Matt!!!";
+}
