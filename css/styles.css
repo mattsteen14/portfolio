@@ -132,6 +132,10 @@ main {
     text-align: start;
 }
 
+#projects a {
+    text-decoration: underline;
+}
+
 button {
 
 }
