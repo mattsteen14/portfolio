@@ -50,6 +50,10 @@ summary {
     padding: 0.5rem;
 }
 
+#projects a, #career .role a {
+    text-decoration: underline;
+}
+
 /* HEADER / NAV BAR */
 
 header h1 {
@@ -85,14 +89,14 @@ main {
 
 /* ABOUT ME section */
 
-#about {
-
+#about a:hover {
+    color: #5D7B31;
 }
 
 .about-container {
     display: flex;
     padding: 2rem;
-    gap: 100px;
+    gap: 10rem;
 }
 
 .about-pic {
@@ -130,14 +134,7 @@ main {
 
 .project-description {
     text-align: start;
-}
-
-#projects a {
-    text-decoration: underline;
-}
-
-button {
-
+    margin: 1rem;
 }
 
 /* CAREER section */
@@ -162,10 +159,6 @@ button {
 
 .career-description {
     text-align: start;
-}
-
-.career-description {
-
 }
 
 .career-description .icon {
@@ -217,8 +210,12 @@ button {
 
 /* FOOTER */
 
+#footer {
+    /* background-color: #B2B96B; */
+}
 
 footer {
+    /* background-color: #B2B96B; */
     display: flex;
     padding: 1rem 0;
     align-items: center;
