@@ -54,6 +54,10 @@ summary {
     text-decoration: underline;
 }
 
+#about a:hover, #career a:hover,  .contact-container a:hover, #footer-link a:hover {
+    color: #5D7B31;
+}
+
 /* HEADER / NAV BAR */
 
 header h1 {
@@ -76,10 +80,6 @@ nav {
     align-items: center;
 }
 
-.nav-link {
-
-}
-
 /* MAIN */
 
 main {
@@ -88,10 +88,6 @@ main {
 }
 
 /* ABOUT ME section */
-
-#about a:hover {
-    color: #5D7B31;
-}
 
 .about-container {
     display: flex;
@@ -124,10 +120,6 @@ main {
     margin: 4%;
 }
 
-.project-item {
-
-}
-
 .project-heading h3 {
     display: inline;
 }
@@ -139,18 +131,10 @@ main {
 
 /* CAREER section */
 
-#career {
-
-}
-
 .career-container {
     display: grid;
     grid-template-columns: 30% 30% 30%;
     margin: 4%;
-}
-
-.career-item {
-
 }
 
 .career-heading h3 {
@@ -191,36 +175,27 @@ main {
 
 /* CONTACT section */
 
-#contact {
-
-} 
-
-.contact-container {
-
-}
-
 .contact-container .icon {
     font-size: 2em;
     margin: 20px;
 }
 
-.contact-container a:hover {
-    color: #5D7B31;
-}
-
 /* FOOTER */
 
-#footer {
-    /* background-color: #B2B96B; */
+#footer-row {
+    background-color: #B2B96B;
+    position: relative;
+}
+
+#footer-link {
+    background-color: #B2B96B;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
 }
 
 footer {
-    /* background-color: #B2B96B; */
-    display: flex;
-    padding: 1rem 0;
-    align-items: center;
-    margin-right: 4%;
-    margin-left: auto;
+    padding: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
