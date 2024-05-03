@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="/portfolio/resources/images/PortfolioScreenshot.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Matt Steen-Brookes Portfolio</h3>
@@ -82,7 +82,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Portfolio Screen Shot][product-screenshot]](https://github.com/mattsteen14/portfolio)
+<!-- [![Portfolio Screen Shot][product-screenshot]](https://github.com/mattsteen14/portfolio) -->
 
 As per the project brief I built a personal portfolio website on HTML & CSS using GIT version control via the command line on terminal. I developed it locally on my computer mainly on Visual Studio Code. The site is responsive to smaller vertical screen configurations. My goal while wireframing was spread content horizontally for wider screens then cascade vertically for smaller screens.
 
