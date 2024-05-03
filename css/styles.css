@@ -4,9 +4,10 @@ html {
     font-family: 'Poppins', 'Trebuchet MS', Tahoma, sans-serif, serif;
 }
 
-html, body {
+html,
+body {
     height: 100%;
-    
+
 }
 
 body {
@@ -17,6 +18,12 @@ body {
     flex-direction: column;
     width: 100vw;
     min-height: 100vh;
+}
+
+h2,
+h3 {
+    font-weight: 600;
+    margin: 0.5rem;
 }
 
 a {
@@ -36,26 +43,37 @@ a:active {
 details {
     cursor: pointer;
     margin: 10px;
+    padding: 0;
 }
 
 details:active {
     color: #5D7B31;
 }
 
-summary {
-    list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
-}
-
-#about, #projects, #career, #skills, #contact {
+#about,
+#projects,
+#career,
+#skills,
+#contact {
     padding: 0.5rem;
 }
 
-#projects a, #career .role a {
+#projects a,
+#career .role a {
     text-decoration: underline;
 }
 
-#about a:hover, #career a:hover,  .contact-container a:hover, #footer-link a:hover {
+#about a:hover,
+#career a:hover,
+.contact-container a:hover,
+#footer-link a:hover {
     color: #5D7B31;
+}
+
+.project-container,
+.career-container,
+.skills-container {
+    margin: 1% 4%;
 }
 
 /* HEADER / NAV BAR */
@@ -89,10 +107,14 @@ main {
 
 /* ABOUT ME section */
 
+#about h2 {
+    margin: 0;
+}
+
 .about-container {
     display: flex;
-    padding: 2rem;
-    gap: 10rem;
+    padding: 1rem;
+    margin: 0 1%;
 }
 
 .about-pic {
@@ -104,9 +126,9 @@ main {
 
 .about-text-container {
     display: flex;
-    gap: 1rem;
     flex-direction: column;
     text-align: start;
+    padding: 1rem;
 }
 
 /* PROJECTS section */
@@ -117,7 +139,6 @@ main {
 
 .project-container {
     border: 1px black solid;
-    margin: 4%;
 }
 
 .project-heading h3 {
@@ -133,27 +154,31 @@ main {
 
 .career-container {
     display: grid;
-    grid-template-columns: 30% 30% 30%;
-    margin: 4%;
+    grid-template-columns: 33% 33% 33%;
 }
 
 .career-heading h3 {
     display: inline;
 }
 
-.career-description {
+.career-description p {
     text-align: start;
 }
 
 .career-description .icon {
     font-size: 6em;
-    margin: 5%;
+    margin: 1%;
+    text-align: center;
 }
 
-.credits {
-    margin: 0;
-    display: inline-block;
-    vertical-align: top;
+.credits h4 {
+    margin: 0.5rem 0;
+}
+
+.credits li {
+    list-style-type: circle;
+    white-space: nowrap;
+    text-align: start;
 }
 
 /* SKILLS section */
@@ -164,20 +189,21 @@ main {
 
 .skills-container {
     display: flex;
-    margin: 4%;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .skills-container .icon {
     font-size: 2em;
+    width: 2em;
+    margin-top: 0.5rem;
 }
 
 /* CONTACT section */
 
 .contact-container .icon {
     font-size: 2em;
-    margin: 20px;
+    margin: 0 1rem;
 }
 
 /* FOOTER */
@@ -190,7 +216,7 @@ main {
 #footer-link {
     background-color: #B2B96B;
     position: absolute;
-    bottom: 1rem;
+    bottom: 0.5rem;
     right: 1rem;
 }
 
@@ -200,6 +226,19 @@ footer {
 
 @media only screen and (max-width: 600px) {
 
+    /* UNIVERSAL styles */
+
+    h2,
+    h3 {
+        font-weight: 500;
+    }
+
+    details {
+        font-weight: normal;
+    }
+
+    /* HEADER / NAV BAR */
+
     nav {
         display: flex;
         flex-direction: column;
@@ -207,19 +246,19 @@ footer {
     }
 
     .nav-links {
-        margin-left: auto;
-        margin-right: auto;
-        /* margin: 0 1rem; */
+        margin: 0 auto;
     }
 
     .nav-link {
         white-space: nowrap;
     }
 
+    /* ABOUT ME section */
+
     .about-container {
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
     }
 
     .about-pic {
@@ -227,13 +266,66 @@ footer {
         margin-right: auto;
     }
 
-    .about-text-container {
-        margin-left: auto;
-        margin-right: auto;
+    .about-text-container h2 {
         text-align: center;
+    }
+
+    .about-text-container {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    /* PROJECTS section */
+
+    #projects h2 {
+        font-size: 1.2rem;
+    }
+
+    .project-description,
+    #projects a {
+        font-size: 0.8rem;
+    }
+
+    /* CAREER section */
+
+    #career {
+        padding: 0;
     }
 
     .career-container {
         display: block;
+    }
+
+    .career-description {
+        text-align: center;
+    }
+
+    .career-description p {
+        text-align: start;
+    }
+
+    .career-description .icon {
+        font-size: 4em;
+        margin: 1%;
+    }
+
+    .credits {
+        display: block;
+    }
+
+    .credits ul {
+        padding: 0;
+    }
+
+    .credits li {
+        list-style-type: none;
+        text-align: center;
+    }
+
+    /* SKILLS / CONTACT section */
+
+    #skills h2,
+    #contact h2 {
+        font-size: 1.3rem;
     }
 }
