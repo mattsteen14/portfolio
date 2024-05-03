@@ -69,7 +69,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -83,7 +82,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Portfolio Screen Shot][product-screenshot]](https://github.com/mattsteen14/portfolio)
 
 As per the project brief I built a personal portfolio website on HTML & CSS using GIT version control via the command line on terminal. I developed it locally on my computer mainly on Visual Studio Code. The site is responsive to smaller vertical screen configurations. My goal while wireframing was spread content horizontally for wider screens then cascade vertically for smaller screens.
 
@@ -91,27 +90,18 @@ As per the project brief I built a personal portfolio website on HTML & CSS usin
 
 This has been a really valuable & rewarding project. It has built my confidence in styling with CSS, especially with setting consistent spacing, padding & margins. I have never actually integrated javascript into HTML before so I felt proud when I got that to work with the Immature Greeting Generator (after a lot of troubleshooting, mind you).
 
-<!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description` -->
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 ### Built With
 
-- [Gatsby](https://www.gatsbyjs.com/)
-- [Tailwind CSS](https://tailwindcss.com/): for styling
-- [GSAP](https://greensock.com/gsap/): for small SVG Animations
-
-* [![HTML][Next.js]][Next-url]
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+- HTML5
+- CSS
+- JavaScript
+- [Node.js](https://nodejs.org/en)
+- [Visual Studio Code](https://code.visualstudio.com)
+- [Font Awesome](https://fontawesome.com) for the icons.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,26 +139,13 @@ This is an example of how to list things you need to use the software and how to
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- ROADMAP -->
 ## Roadmap
-
+<!-- 
 - [ ] Feature 1
 - [ ] Feature 2
 - [ ] Feature 3
-    - [ ] Nested Feature
+    - [ ] Nested Feature -->
 
 See the [open issues](https://github.com/mattsteen14/portfolio/issues) for a full list of proposed features (and known issues).
 
@@ -217,9 +194,10 @@ Project Link: [https://github.com/mattsteen14/portfolio](https://github.com/matt
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [Mo Ashqar](https://github.com/ashqar) for introducing me to Codecademy in the first place. 
+* [Asaf Lerner](https://github.com/AsafLerner) for his troubleshooting expertise.
+* [Othneil Drew](https://github.com/othneildrew) for the README template.
+* [Choose an Open Source License](https://choosealicense.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -239,7 +217,7 @@ Project Link: [https://github.com/mattsteen14/portfolio](https://github.com/matt
 [license-url]: https://github.com/mattsteen14/portfolio/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/mattsteen14
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: /portfolio/resources/images/PortfolioScreenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
