@@ -39,10 +39,12 @@
   <p align="center">
     Codecademy Full Stack Engineer path - Portfolio Project: Personal Portfolio Website
     <br />
+    <a href="https://mattsteen14.github.io/portfolio/"><strong>View the GitHub pages webpage.</strong></a>
+    <br />
     <a href="https://github.com/mattsteen14/portfolio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/mattsteen14/portfolio">View Demo</a>
+    <a href="https://mattsteen14.github.io/portfolio/">View Demo</a>
     ·
     <a href="https://github.com/mattsteen14/portfolio/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
@@ -183,7 +185,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@mattsteen14](https://twitter.com/mattsteen14) - mattsteen14@me.com
+Matt Steen-Brookes - [@mattsteen14](https://twitter.com/mattsteen14) - mattsteen14@me.com
 
 Project Link: [https://github.com/mattsteen14/portfolio](https://github.com/mattsteen14/portfolio)
 
