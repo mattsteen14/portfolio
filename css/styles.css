@@ -131,6 +131,20 @@ main {
     padding: 1rem;
 }
 
+.reddit-link {
+    margin: 0.5rem 0;
+    text-align: center;
+    color: #B2B96B;
+}
+
+.reddit-link:hover {
+    color: #213115;
+}
+
+.reddit-link:active {
+    color: #5D7B31;
+}
+
 /* PROJECTS section */
 
 #projects {
